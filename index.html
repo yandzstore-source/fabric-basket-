@@ -124,10 +124,11 @@
         }
         
         .main-image-wrapper img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.3s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* ستعرض الصورة كاملة بدون قص */
+    background-color: #ffffff; 
+    transition: transform 0.3s ease;
         }
 
         .main-image-wrapper:hover img {
